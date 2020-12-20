@@ -1,0 +1,27 @@
+### HEXMate logfile and output summary ###
+### Memory Usage ###
+ Unused memory ranges:
+  2Eh - 6CFh
+  
+ C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\C Code Project.hex ranges:
+  0h - 2Dh
+  6D0h - 7FFh
+  
+### Hex Memory Map ###
+ Legend:
+  - = Unused memory
+  F = Filled ROM
+  S = Stored serial code
+  A = Stored ASCII string
+  R = Reserved for checksum
+  C = Stored checksum result
+  T = Trailing code
+  & = Find & replace opcode
+  X = Find & delete opcode
+  1 = C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\C Code Project.hex
+00000000: 1111111111111111111111111111111111111111111111------------------
+000006C0: ----------------111111111111111111111111111111111111111111111111
+00000700: 1111111111111111111111111111111111111111111111111111111111111111
+00000740: 1111111111111111111111111111111111111111111111111111111111111111
+00000780: 1111111111111111111111111111111111111111111111111111111111111111
+000007C0: 1111111111111111111111111111111111111111111111111111111111111111

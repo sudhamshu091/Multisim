@@ -1,0 +1,151 @@
+_RD 440 0 ABS
+_WR 441 0 ABS
+_RA0 28 0 ABS
+_RA1 29 0 ABS
+_RP0 1D 0 ABS
+__S0 400 0 ABS
+__S1 10 0 ABS
+__S2 0 0 ABS
+_GIE 5F 0 ABS
+__Hintentry 0 0 CODE
+__Lintentry 0 0 CODE
+__end_of_init 393 0 CODE
+_WREN 442 0 ABS
+_main 3BD 0 CODE
+btemp 4E 0 ABS
+_init 36A 0 CODE
+_exit 0 0 CODE
+start 0 0 CODE
+_HexTable 7 0 STRING
+_TRISA 85 0 ABS
+_TRISB 86 0 ABS
+_PORTA 5 0 ABS
+reset_vec 0 0 CODE
+_PORTB 6 0 ABS
+_EEADR 9 0 ABS
+wtemp0 4E 0 ABS
+__size_of_init 0 0 ABS
+__end_of_delay 3BD 0 CODE
+_CARRY 18 0 ABS
+__Hconfig 0 0 CONFIG
+__Lconfig 0 0 CONFIG
+__Hram 0 0 ABS
+__Lram 0 0 ABS
+?_main C 0 BANK0
+?_init C 0 BANK0
+_delay 393 0 CODE
+__Hfunctab 0 0 CODE
+__Lfunctab 0 0 CODE
+_EECON1 88 0 ABS
+_EECON2 89 0 ABS
+__Hcommon 0 0 ABS
+__Lcommon 0 0 ABS
+__Heeprom_data 0 0 EEDATA
+__Leeprom_data 0 0 EEDATA
+_EEDATA 8 0 ABS
+__Habs1 0 0 ABS
+__Labs1 0 0 ABS
+__Hsfr0 0 0 ABS
+__Lsfr0 0 0 ABS
+__Hsfr1 0 0 ABS
+__Lsfr1 0 0 ABS
+_STATUS 3 0 ABS
+__size_of_delay 0 0 ABS
+__Hcode 0 0 ABS
+__Lcode 0 0 ABS
+??_main 0 0 COMMON
+__HcstackBANK0 0 0 ABS
+__LcstackBANK0 0 0 ABS
+__pcstackBANK0 C 0 BANK0
+??_init C 0 BANK0
+__Hinit 0 0 CODE
+__Linit 0 0 CODE
+?_delay C 0 BANK0
+__end_of_main 400 0 CODE
+__Htext 0 0 ABS
+__Ltext 0 0 ABS
+__ptext166 393 0 CODE
+end_of_initialization 368 0 CODE
+__ptext167 36A 0 CODE
+__ptext168 0 0 CODE
+__Hstrings 0 0 ABS
+__Lstrings 0 0 ABS
+__pstrings 1 0 STRING
+__Hbank0 0 0 ABS
+__Lbank0 0 0 ABS
+__Hbank1 0 0 BANK1
+__Lbank1 0 0 BANK1
+__Hpowerup 0 0 CODE
+__Lpowerup 0 0 CODE
+delay@mIndex C 0 BANK0
+__Hclrtext 0 0 ABS
+__Lclrtext 0 0 ABS
+__Hidloc 0 0 IDLOC
+__Lidloc 0 0 IDLOC
+__Hcinit 0 0 ABS
+??_delay 0 0 COMMON
+__Lcinit 0 0 ABS
+__size_of_main 0 0 ABS
+main@nIndex E 0 BANK0
+__Hend_init 1 0 CODE
+__Lend_init 0 0 CODE
+__Hreset_vec 0 0 CODE
+__Lreset_vec 0 0 CODE
+intlevel0 0 0 CODE
+intlevel1 0 0 CODE
+intlevel2 0 0 CODE
+intlevel3 0 0 CODE
+intlevel4 0 0 CODE
+intlevel5 0 0 CODE
+__HcstackCOMMON 0 0 ABS
+__LcstackCOMMON 0 0 ABS
+__pcstackCOMMON 0 0 COMMON
+start_initialization 368 0 CODE
+__Hmaintext 0 0 ABS
+__Lmaintext 0 0 ABS
+__pmaintext 3BD 0 CODE
+%segments
+reset_vec 0 1 CODE 0
+cstackBANK0 C F BANK0 C
+maintext 77A 7FF CODE 77A
+text166 726 779 CODE 726
+text167 6D4 725 CODE 6D4
+strings 2 2D STRING 2
+cinit 6D0 6D3 CODE 6D0
+%locals
+C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\startup.obj
+C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\startup.as
+67 0 0 CODE
+C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\main_0.obj
+C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\main.c
+8 7 0 STRING
+main_0.as
+127 368 0 CODE
+128 369 0 CODE
+C:\Users\nsanchez\Desktop\CustEd\Lab10\complete\MYMCUP~1\CCODEP~1\main.c
+29 3BD 0 CODE
+31 3C0 0 CODE
+35 3C2 0 CODE
+36 3C7 0 CODE
+37 3CC 0 CODE
+38 3D0 0 CODE
+39 3D6 0 CODE
+40 3E0 0 CODE
+42 3E1 0 CODE
+43 3E7 0 CODE
+45 3F7 0 CODE
+46 3F8 0 CODE
+48 3F9 0 CODE
+49 3FD 0 CODE
+33 3FE 0 CODE
+51 3FF 0 CODE
+22 393 0 CODE
+23 396 0 CODE
+24 3BC 0 CODE
+12 36A 0 CODE
+13 37C 0 CODE
+14 37D 0 CODE
+15 37E 0 CODE
+16 38E 0 CODE
+17 391 0 CODE
+18 392 0 CODE
